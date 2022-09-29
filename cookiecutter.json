@@ -1,0 +1,9 @@
+{
+    "lambda_name": "LambdaName",
+    "description": "type a nice description for this lambda",
+    "runtime": ["python3.9", "python3.8"],
+    "team_payment": "team clip",
+    "enviroment": ["dev", "stage", "prod"],
+    "debug": ["DEBUG", "INFO"],
+    "sonar_project_name":""
+}
