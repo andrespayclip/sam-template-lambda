@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: {{cookiecutter.description}} aws
+Description: {{cookiecutter.description}}
 Globals:
   Function:
     Timeout: 3
@@ -19,5 +19,5 @@ Resources:
         - !Sub arn:aws:lambda:${AWS::Region}:017000801446:layer:AWSLambdaPowertoolsPython:22
       CodeUri: app/
       Handler: app.lambda_handler
-      Runtime: {{cookiecutter.runtime}}:
+      Runtime: {{cookiecutter.runtime}}
           
