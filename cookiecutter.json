@@ -5,5 +5,6 @@
     "team_payment": "team clip",
     "enviroment": ["dev", "stage", "prod"],
     "debug": ["DEBUG", "INFO"],
-    "sonar_project_name":""
+    "sonar_project_name":"",
+    "project_slug": "{{ cookiecutter.lambda_name|lower|replace(' ', '-') }}"
 }
