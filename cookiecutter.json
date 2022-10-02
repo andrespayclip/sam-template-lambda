@@ -3,7 +3,7 @@
     "lambda_name": "resource name to be used in the sam template",
     "description": "nice description for this lambda",
     "runtime": ["python3.9", "python3.8"],
-    "team_payment": "team clip",
+    "team_payment": "team",
     "enviroment": ["dev", "stage", "prod"],
     "debug": ["DEBUG", "INFO"],
     "sonar_project_name":""
